@@ -1,0 +1,195 @@
+{
+  "system_info": {
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "memory_total_gb": 31.133846282958984,
+    "python_version": "(7, 0, 0)",
+    "timestamp": "2025-06-29T16:11:58.889085"
+  },
+  "results": {
+    "csv_reading_small": {
+      "file": "dataset_1k.csv",
+      "rows": 1000,
+      "execution_time": 0.011736869812011719,
+      "rows_per_second": 85201.59258958316,
+      "memory_diff_mb": 0.4765625,
+      "dataset_info": {
+        "name": "small",
+        "rows": 1000,
+        "filename": "dataset_1k.csv",
+        "filepath": "../data\\dataset_1k.csv",
+        "size_mb": 0.009241104125976562
+      }
+    },
+    "csv_reading_medium": {
+      "file": "dataset_10k.csv",
+      "rows": 10000,
+      "execution_time": 0.013396978378295898,
+      "rows_per_second": 746436.9738926162,
+      "memory_diff_mb": 0.04296875,
+      "dataset_info": {
+        "name": "medium",
+        "rows": 10000,
+        "filename": "dataset_10k.csv",
+        "filepath": "../data\\dataset_10k.csv",
+        "size_mb": 0.10190105438232422
+      }
+    },
+    "csv_reading_large": {
+      "file": "dataset_100k.csv",
+      "rows": 100000,
+      "execution_time": 0.02558732032775879,
+      "rows_per_second": 3908185.7232042192,
+      "memory_diff_mb": 0.8359375,
+      "dataset_info": {
+        "name": "large",
+        "rows": 100000,
+        "filename": "dataset_100k.csv",
+        "filepath": "../data\\dataset_100k.csv",
+        "size_mb": 1.1146068572998047
+      }
+    },
+    "csv_reading_xlarge": {
+      "file": "dataset_500k.csv",
+      "rows": 500000,
+      "execution_time": 0.08015656471252441,
+      "rows_per_second": 6237792.273074738,
+      "memory_diff_mb": 6.37109375,
+      "dataset_info": {
+        "name": "xlarge",
+        "rows": 500000,
+        "filename": "dataset_500k.csv",
+        "filepath": "../data\\dataset_500k.csv",
+        "size_mb": 5.996868133544922
+      }
+    },
+    "calculations_small": {
+      "dataset_info": {
+        "name": "small",
+        "rows": 1000,
+        "filename": "dataset_1k.csv",
+        "filepath": "../data\\dataset_1k.csv",
+        "size_mb": 0.009241104125976562
+      },
+      "load_time": 0.0010025501251220703,
+      "calc_time": 0.0019989013671875,
+      "memory_diff_mb": 0.296875,
+      "calculations": {
+        "sum": "2523346",
+        "mean": 2523.346,
+        "median": 2495.5,
+        "std": 1461.2109223666664,
+        "min": "58",
+        "max": "4998",
+        "quantile_25": 1203.25,
+        "quantile_75": 3813.25,
+        "count": 1000,
+        "unique_count": 897
+      },
+      "rows_per_second": 500274.80916030536
+    },
+    "calculations_medium": {
+      "dataset_info": {
+        "name": "medium",
+        "rows": 10000,
+        "filename": "dataset_10k.csv",
+        "filepath": "../data\\dataset_10k.csv",
+        "size_mb": 0.10190105438232422
+      },
+      "load_time": 0.002513885498046875,
+      "calc_time": 0.0019969940185546875,
+      "memory_diff_mb": 0.00390625,
+      "calculations": {
+        "sum": "25241267",
+        "mean": 2524.1267,
+        "median": 2543.5,
+        "std": 1436.1017781755017,
+        "min": "50",
+        "max": "5000",
+        "quantile_25": 1268.75,
+        "quantile_75": 3772.0,
+        "count": 10000,
+        "unique_count": 4310
+      },
+      "rows_per_second": 5007526.2655205345
+    },
+    "calculations_large": {
+      "dataset_info": {
+        "name": "large",
+        "rows": 100000,
+        "filename": "dataset_100k.csv",
+        "filepath": "../data\\dataset_100k.csv",
+        "size_mb": 1.1146068572998047
+      },
+      "load_time": 0.02408289909362793,
+      "calc_time": 0.012538433074951172,
+      "memory_diff_mb": 0.75,
+      "calculations": {
+        "sum": "252907426",
+        "mean": 2529.07426,
+        "median": 2529.0,
+        "std": 1430.3476746057775,
+        "min": "50",
+        "max": "5000",
+        "quantile_25": 1288.0,
+        "quantile_75": 3772.0,
+        "count": 100000,
+        "unique_count": 4951
+      },
+      "rows_per_second": 7975478.227799962
+    },
+    "calculations_xlarge": {
+      "dataset_info": {
+        "name": "xlarge",
+        "rows": 500000,
+        "filename": "dataset_500k.csv",
+        "filepath": "../data\\dataset_500k.csv",
+        "size_mb": 5.996868133544922
+      },
+      "load_time": 0.07966351509094238,
+      "calc_time": 0.029046058654785156,
+      "memory_diff_mb": 0.03515625,
+      "calculations": {
+        "sum": "1263958557",
+        "mean": 2527.917114,
+        "median": 2528.0,
+        "std": 1430.1484186212667,
+        "min": "50",
+        "max": "5000",
+        "quantile_25": 1290.0,
+        "quantile_75": 3767.0,
+        "count": 500000,
+        "unique_count": 4951
+      },
+      "rows_per_second": 17214039.465475917
+    },
+    "parallel_sequential_medium": {
+      "method": "sequential",
+      "execution_time": 0.0,
+      "dataset_info": {
+        "name": "medium",
+        "rows": 10000,
+        "filename": "dataset_10k.csv",
+        "filepath": "../data\\dataset_10k.csv",
+        "size_mb": 0.10190105438232422
+      }
+    },
+    "parallel_threads_medium": {
+      "method": "threads",
+      "execution_time": 0.0030477046966552734,
+      "dataset_info": {
+        "name": "medium",
+        "rows": 10000,
+        "filename": "dataset_10k.csv",
+        "filepath": "../data\\dataset_10k.csv",
+        "size_mb": 0.10190105438232422
+      }
+    }
+  },
+  "summary": {
+    "total_tests": 10,
+    "csv_reading_tests": 4,
+    "calculation_tests": 4,
+    "parallel_tests": 2
+  }
+}

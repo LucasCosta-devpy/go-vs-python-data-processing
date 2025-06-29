@@ -1,0 +1,210 @@
+{
+  "results": {
+    "calculations_large": {
+      "dataset_info": {
+        "name": "large",
+        "rows": 100000,
+        "filename": "dataset_100k_go.csv",
+        "filepath": "..\\data\\dataset_100k_go.csv",
+        "size_mb": 1.0192232131958008
+      },
+      "execution_time": 0.0085122,
+      "rows_per_second": 11747844.27057635,
+      "memory_diff_mb": -1.6056137084960938,
+      "method": "go_native",
+      "additional_info": {
+        "calculations": {
+          "count": 100000,
+          "max": 4999,
+          "mean": 2523.72632,
+          "median": 2524,
+          "min": 50,
+          "quantile_25": 1290,
+          "quantile_75": 3758,
+          "std": 2033496.3645592406,
+          "sum": 252372632,
+          "unique_count": 4950
+        },
+        "load_time": 0.0133232
+      }
+    },
+    "calculations_medium": {
+      "dataset_info": {
+        "name": "medium",
+        "rows": 10000,
+        "filename": "dataset_10k_go.csv",
+        "filepath": "..\\data\\dataset_10k_go.csv",
+        "size_mb": 0.09238243103027344
+      },
+      "execution_time": 0.0009993,
+      "rows_per_second": 10007004.903432403,
+      "memory_diff_mb": -7.73828125,
+      "method": "go_native",
+      "additional_info": {
+        "calculations": {
+          "count": 10000,
+          "max": 4999,
+          "mean": 2525.5149,
+          "median": 2524,
+          "min": 50,
+          "quantile_25": 1286,
+          "quantile_75": 3763,
+          "std": 2052361.874977996,
+          "sum": 25255149,
+          "unique_count": 4335
+        },
+        "load_time": 0.0019989
+      }
+    },
+    "calculations_small": {
+      "dataset_info": {
+        "name": "small",
+        "rows": 1000,
+        "filename": "dataset_1k_go.csv",
+        "filepath": "..\\data\\dataset_1k_go.csv",
+        "size_mb": 0.008302688598632812
+      },
+      "execution_time": 0.0010019,
+      "rows_per_second": 998103.6031540073,
+      "memory_diff_mb": 0.05985260009765625,
+      "method": "go_native",
+      "additional_info": {
+        "calculations": {
+          "count": 1000,
+          "max": 4997,
+          "mean": 2544.679,
+          "median": 2504,
+          "min": 55,
+          "quantile_25": 1291,
+          "quantile_75": 3826,
+          "std": 2028408.6759589994,
+          "sum": 2544679,
+          "unique_count": 897
+        },
+        "load_time": 0
+      }
+    },
+    "calculations_xlarge": {
+      "dataset_info": {
+        "name": "xlarge",
+        "rows": 500000,
+        "filename": "dataset_500k_go.csv",
+        "filepath": "..\\data\\dataset_500k_go.csv",
+        "size_mb": 5.519992828369141
+      },
+      "execution_time": 0.0353548,
+      "rows_per_second": 14142351.250749545,
+      "memory_diff_mb": 0.87176513671875,
+      "method": "go_native",
+      "additional_info": {
+        "calculations": {
+          "count": 500000,
+          "max": 4999,
+          "mean": 2521.340572,
+          "median": 2518,
+          "min": 50,
+          "quantile_25": 1286,
+          "quantile_75": 3753,
+          "std": 2037156.662478728,
+          "sum": 1260670286,
+          "unique_count": 4950
+        },
+        "load_time": 0.0643504
+      }
+    },
+    "csv_reading_large": {
+      "dataset_info": {
+        "name": "large",
+        "rows": 100000,
+        "filename": "dataset_100k_go.csv",
+        "filepath": "..\\data\\dataset_100k_go.csv",
+        "size_mb": 1.0192232131958008
+      },
+      "execution_time": 0.0137453,
+      "rows_per_second": 7275214.073174103,
+      "memory_diff_mb": 1.4869384765625,
+      "method": "go_encoding_csv"
+    },
+    "csv_reading_medium": {
+      "dataset_info": {
+        "name": "medium",
+        "rows": 10000,
+        "filename": "dataset_10k_go.csv",
+        "filepath": "..\\data\\dataset_10k_go.csv",
+        "size_mb": 0.09238243103027344
+      },
+      "execution_time": 0.0008759,
+      "rows_per_second": 11416828.405069072,
+      "memory_diff_mb": 0.7272415161132812,
+      "method": "go_encoding_csv"
+    },
+    "csv_reading_small": {
+      "dataset_info": {
+        "name": "small",
+        "rows": 1000,
+        "filename": "dataset_1k_go.csv",
+        "filepath": "..\\data\\dataset_1k_go.csv",
+        "size_mb": 0.008302688598632812
+      },
+      "execution_time": 0,
+      "rows_per_second": 10000000,
+      "memory_diff_mb": 0.06691741943359375,
+      "method": "go_encoding_csv"
+    },
+    "csv_reading_xlarge": {
+      "dataset_info": {
+        "name": "xlarge",
+        "rows": 500000,
+        "filename": "dataset_500k_go.csv",
+        "filepath": "..\\data\\dataset_500k_go.csv",
+        "size_mb": 5.519992828369141
+      },
+      "execution_time": 0.0693036,
+      "rows_per_second": 7214632.428907012,
+      "memory_diff_mb": 4.403480529785156,
+      "method": "go_encoding_csv"
+    },
+    "parallel_goroutines_medium": {
+      "dataset_info": {
+        "name": "medium",
+        "rows": 10000,
+        "filename": "dataset_10k_go.csv",
+        "filepath": "..\\data\\dataset_10k_go.csv",
+        "size_mb": 0.09238243103027344
+      },
+      "execution_time": 0,
+      "rows_per_second": 100000000,
+      "memory_diff_mb": 0,
+      "method": "goroutines",
+      "additional_info": {
+        "workers": 4
+      }
+    },
+    "parallel_sequential_medium": {
+      "dataset_info": {
+        "name": "medium",
+        "rows": 10000,
+        "filename": "dataset_10k_go.csv",
+        "filepath": "..\\data\\dataset_10k_go.csv",
+        "size_mb": 0.09238243103027344
+      },
+      "execution_time": 0,
+      "rows_per_second": 100000000,
+      "memory_diff_mb": 0,
+      "method": "sequential"
+    }
+  },
+  "summary": {
+    "calculation_tests": 4,
+    "csv_reading_tests": 4,
+    "parallel_tests": 2,
+    "total_tests": 10
+  },
+  "system_info": {
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "memory_total_mb": 6,
+    "go_version": "go1.23.1",
+    "timestamp": "2025-06-29T17:51:30-03:00"
+  }
+}
